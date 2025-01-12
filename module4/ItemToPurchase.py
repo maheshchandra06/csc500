@@ -1,6 +1,4 @@
 # Online Shopping cart
-from warnings import catch_warnings
-
 
 # Step 1: Build the ItemToPurchase class
 class ItemToPurchase:
