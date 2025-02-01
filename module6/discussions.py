@@ -58,3 +58,5 @@ if __name__ == '__main__':
     print(profile)
     profile.pop("height")                               # {'name': 'Shiela', 'occupation': 'lawyer', 'location': 'United States'}
     print(profile)
+
+    print("Name: {}\nProfession: {}\nLocation: {}".format(profile["name"],profile["occupation"],profile["location"]))
